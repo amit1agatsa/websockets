@@ -31,6 +31,6 @@ function uuidv4() {
 
 const server = http.createServer();
 wss.installHandlers(server, { prefix: '/ws' });
-server.listen(7071, '0.0.0.0');
+server.listen(7072, '0.0.0.0');
 
 console.log("wss up");
